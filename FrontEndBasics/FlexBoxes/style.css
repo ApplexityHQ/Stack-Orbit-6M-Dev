@@ -1,0 +1,49 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #cacaca;
+    padding: 10px;
+    margin:50px;
+    display: flex;
+
+    /* Property 1 */
+    flex-direction: row; 
+    /* row | row-reverse */
+
+    /* Property 2 */
+    justify-content: center;
+    /* justify-content : Main X Axis */
+    /* center | space-around | space-evenly | space-between */
+    /* flex-start | flex-end */
+
+    /* Property 3 */
+
+
+    align-items:center;
+    /* flex-start | flex-end | center| stretch | baseline */
+    
+
+    /* most commonly used */
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+
+
+}
+
+.item {
+    background-color: #ff0037;
+    color: #fff;
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+
+/* Common */
+
